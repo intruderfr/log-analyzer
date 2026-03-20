@@ -1,0 +1,13 @@
+2026-03-20 10:15:30 [INFO] Server started on port 8080
+2026-03-20 10:15:35 [INFO] Database connection established
+2026-03-20 10:16:42 [ERROR] Failed to connect to Redis: connection refused
+2026-03-20 10:16:45 [WARN] Retrying Redis connection in 5 seconds
+2026-03-20 10:16:50 [INFO] Redis connection restored
+2026-03-20 10:17:23 [ERROR] Authentication failed for user john@example.com: invalid credentials
+2026-03-20 10:18:05 [INFO] User alice@example.com logged in successfully
+2026-03-20 10:18:30 [ERROR] HTTP/1.1" 500 Internal Server Error - Database query timeout
+2026-03-20 10:19:15 [WARN] High memory usage detected: 85%
+2026-03-20 10:19:45 [ERROR] Out of memory: failed to allocate 1024MB for user session cache
+2026-03-20 10:20:10 [FATAL] Critical system error: database connection pool exhausted
+2026-03-20 10:20:11 [INFO] Initiating graceful shutdown
+2026-03-20 10:20:15 [INFO] Server stopped

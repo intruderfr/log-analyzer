@@ -1,0 +1,32 @@
+[
+  {
+    "name": "API_TIMEOUT",
+    "pattern": "(?i)(api|request)\\s+(timeout|timed out)",
+    "description": "API request timeouts",
+    "severity": "medium"
+  },
+  {
+    "name": "PAYMENT_ERROR",
+    "pattern": "(?i)(payment (failed|declined|error)|transaction (failed|timeout))",
+    "description": "Payment processing failures",
+    "severity": "critical"
+  },
+  {
+    "name": "SLOW_QUERY",
+    "pattern": "slow query: [0-9]+\\.[0-9]+s",
+    "description": "Database slow queries (>1s)",
+    "severity": "medium"
+  },
+  {
+    "name": "SECURITY_ALERT",
+    "pattern": "(?i)(brute force|suspicious activity|blocked ip|security violation)",
+    "description": "Security-related alerts",
+    "severity": "high"
+  },
+  {
+    "name": "DISK_FULL",
+    "pattern": "(?i)(disk (full|space)|no space left|filesystem full)",
+    "description": "Disk space issues",
+    "severity": "critical"
+  }
+]
